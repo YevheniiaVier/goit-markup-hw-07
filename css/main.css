@@ -1,10 +1,10 @@
-.preferences__list, .social__item, .social__list, .address__list, .contacts, .page-header__list {
+.activities__list, .preferences__list, .social__item, .social__list, .address__list, .contacts, .page-header__list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.preferences__section, .page-footer__container, .page-header__container {
+.activities__section, .preferences__section, .page-footer__container, .page-header__container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-.preferences {
+.activities, .preferences {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -687,4 +687,48 @@ img {
   line-height: 1.14;
   color: #212121;
   text-transform: uppercase;
+}
+.activities {
+  padding-top: 0;
+}
+.activities__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
+.activities__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.activities__item {
+  position: relative;
+}
+.activities__text {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 23.81%;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.activities__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
