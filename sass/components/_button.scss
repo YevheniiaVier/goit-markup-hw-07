@@ -1,5 +1,5 @@
 .button {
-  border-radius: 4px;
+  border-radius: $borderRadius;
   border: none;
 
   font-family: inherit;
@@ -17,7 +17,6 @@
   transition: color $time-function, background-color $time-function, box-shadow $time-function;
   &:hover,
   &:focus {
-    
     background-color: $hover-btn-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
