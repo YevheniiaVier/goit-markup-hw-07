@@ -37,8 +37,8 @@
   &__list {
     @extend %list;
   }
-  &__item {
-    gap: 9px;
+  &__item + .address__item {
+    margin-top: 9px;
   }
   &__link {
     text-decoration: none;
@@ -60,13 +60,9 @@
   &__list {
     @extend %list;
   }
-  &__item {
-  }
-
-  &__icon {
-  }
 }
-.social__link {
+
+.social__link--white {
   transition: background-color $time-function;
   color: $white-text-color;
   background-color: rgba(255, 255, 255, 0.1);
