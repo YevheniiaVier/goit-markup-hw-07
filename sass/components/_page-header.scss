@@ -19,7 +19,8 @@
     margin-right: 50px;
   }
 }
-.container {
+.page-header__container {
+  @extend %container;
   display: flex;
 }
 .page-header__link {

@@ -1,0 +1,45 @@
+.button {
+  border-radius: 4px;
+  border: none;
+
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: $accent-color;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $white-text-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  transition: color $time-function, background-color $time-function, box-shadow $time-function;
+  &:hover,
+  &:focus {
+    
+    background-color: $hover-btn-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// .btn.secondary {
+//   transition: color var(--time-function), background-color var(--time-function),
+//     box-shadow var(--time-function);
+//   padding: 6px 22px;
+
+//   font-weight: 500;
+//   line-height: 1.62;
+//   letter-spacing: 0.03em;
+//   color: var(--title-text-color);
+
+//   background-color: var(--accent-background-color);
+// }
+
+// .btn.secondary:hover,
+// .btn.secondary:focus {
+//   color: var(--white-text-color);
+//   background-color: var(--accent-color);
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+// }

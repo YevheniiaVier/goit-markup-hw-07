@@ -193,7 +193,7 @@ p {
 
 /* ----------button------------- */
 
-.btn {
+/* .btn {
   border-radius: 4px;
   border: none;
 
@@ -201,7 +201,7 @@ p {
   font-size: 16px;
   cursor: pointer;
   background-color: var(--accent-color);
-}
+} */
 .btn.primary {
   transition: color var(--time-function), background-color var(--time-function),
     box-shadow var(--time-function);
@@ -359,37 +359,37 @@ p {
   margin-bottom: 16px;
 }
 
-.social-networks {
+/* .social-networks {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
+} */
 
-.sn-item {
+/* .sn-item {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-
+} */
+/* 
 .main-sn .sn-item {
   transition: color var(--time-function), background-color var(--time-function);
   color: var(--border-card-color);
-}
+} */
 
-.sn-icon {
+/* .sn-icon {
   fill: currentColor;
   width: 20px;
   height: 20px;
-}
-.main-sn .sn-item:hover,
+} */
+/* .main-sn .sn-item:hover,
 .main-sn .sn-item:focus {
   color: var(--white-text-color);
   background-color: var(--accent-color);
-}
+} */
 /* ----------------------Clients--------------------  */
 
 .client-thumb {
@@ -430,73 +430,73 @@ p {
   background-color: var(--secondary-background-color);
 } */
 
-.bottom .logo {
+/* .bottom .logo {
   display: block;
   margin-bottom: 20px;
-}
-
+} */
+/* 
 .bottom-panel .item + .item {
   margin-top: 9px;
 }
 .logo-secondary {
   color: var(--white-text-color);
-}
-.bottom-panel .link {
+} */
+/* .bottom-panel .link {
   transition: color var(--time-function);
   font-style: normal;
   color: var(--transparent-color);
-}
-.bottom-panel .map {
+} */
+/* .bottom-panel .map {
   color: var(--white-text-color);
-}
-
+} */
+/* 
 .bottom-panel .link:hover,
 .bottom-panel .link:focus {
   color: var(--accent-color);
-}
+} */
 
-footer .bottom {
+/* footer .bottom {
   display: flex;
-}
-.connect {
+} */
+/* .connect {
   min-width: 206px;
   min-height: 80px;
   margin-top: 12px;
   margin-left: 70px;
-}
-.links-title {
+} */
+/* .links-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--white-text-color);
-}
-.footer-sn .sn-item {
+} */
+/* .footer-sn .sn-item {
   transition: background-color var(--time-function);
   color: var(--white-text-color);
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-.footer-sn .sn-item:hover,
+/* .footer-sn .sn-item:hover,
 .footer-sn .sn-item:focus {
   background-color: var(--accent-color);
-}
+} */
 
-.signup {
+/* .signup {
   width: 570px;
   margin-left: auto;
   margin-top: 12px;
-}
-.signup-field {
+} */
+/* .signup-field {
   display: inline-block;
   flex-grow: 1;
 }
 .signup-form {
   position: relative;
   display: flex;
-}
-.signup-label {
+} */
+/* .signup-label {
   position: absolute;
   top: 50%;
   left: 16px;
@@ -507,21 +507,21 @@ footer .bottom {
   color: rgba(255, 255, 255, 0.6);
   transform: translateY(-50%);
   transition: color var(--time-function);
-}
-.form-input-signup:focus + .signup-label,
+} */
+/* .form-input-signup:focus + .signup-label,
 .form-input-signup:not(:placeholder-shown) + .signup-label {
   color: transparent;
-}
+} */
 
-.icon-send {
+/* .icon-send {
   fill: var(--white-text-color);
   margin-left: 10px;
   position: absolute;
   top: 50%;
   right: 28px;
   transform: translateY(-50%);
-}
-
+} */
+/* 
 .signup-title {
   display: block;
   font-weight: 700;
@@ -531,22 +531,22 @@ footer .bottom {
   text-transform: uppercase;
   color: var(--white-text-color);
   margin-bottom: 20px;
-}
+} */
 
-.signup-btn {
+/* .signup-btn {
   position: relative;
-  padding: 10px 62px 10px 28px;
-  width: 200px;
-  height: 50px;
+  padding: 10px 62px 10px 28px; */
+  /* width: 200px;
+  height: 50px; */
 
-  font-weight: 700;
+  /* font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--white-text-color);
-  margin-left: 12px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.form-input-signup {
+  letter-spacing: 0.06em; */
+  /* color: var(--white-text-color); */
+  /* margin-left: 12px; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+/* } */
+/* .form-input-signup {
   width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -562,7 +562,7 @@ footer .bottom {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* ----------------portfolio button---------------- */
 
