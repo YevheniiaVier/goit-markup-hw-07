@@ -69,9 +69,6 @@
   gap: $card-gap;
   @extend %list;
 
-  &__item {
-  }
-
   &__icon--envelope,
   &__icon--smartphone {
     margin-right: 10px;
