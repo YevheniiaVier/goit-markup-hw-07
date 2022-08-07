@@ -8,15 +8,13 @@
   opacity: 1;
   transition: opacity $time-function, visibility $time-function;
 }
-.backdrop--is-hidden {
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop__modal {
-  &--is-hidden {
-    transform: translate(-50%, 50%) scale(1.2);
-  }
+.is-hidden .modal {
+  transform: translate(-50%, 50%) scale(1.2);
 }
 .modal {
   padding: 40px;
@@ -70,7 +68,6 @@
     fill: $black-text-color;
     transition: fill $time-function;
   }
-
 }
 .form {
   width: 448px;
