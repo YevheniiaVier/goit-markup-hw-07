@@ -10,15 +10,7 @@
   padding-right: 15px;
   width: 1200px;
 }
-%button {
-  border-radius: $borderRadius;
-  border: none;
 
-  font-family: inherit;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: $accent-color;
-}
 %visually-hidden {
   position: absolute;
   width: 1px;
@@ -34,14 +26,4 @@
 %section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-%section-title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: $title-text-color;
-
-  text-align: center;
 }
