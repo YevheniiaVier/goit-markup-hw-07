@@ -580,60 +580,59 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
-        <form class="main-form" autocomplete="off">
-          <label class="form-field">
-            <span class="form-label">Ім'я</span>
-            <input class="form-input" type="text" name="name" autofocus placeholder=" " />
-            <svg class="icon-form">
+    <div class="backdrop backdrop--is-hidden" data-modal>
+      <div class="modal backdrop__modal--is-hidden">
+        <b class="modal__title">Залиште свої дані, ми вам передзвонимо</b>
+        <form class="form" autocomplete="off">
+          <label class="form__field">
+            <span class="form__label">Ім'я</span>
+            <input class="form__input" type="text" name="name" autofocus placeholder=" " />
+            <svg class="form__icon">
               <use href="./images/icons.svg#icon-person-black"></use>
             </svg>
           </label>
-          <label class="form-field">
-            <span class="form-label">Телефон</span>
-            <input class="form-input" type="tel" name="tel" placeholder=" " />
-            <svg class="icon-form">
+          <label class="form__field">
+            <span class="form__label">Телефон</span>
+            <input class="form__input" type="tel" name="tel" placeholder=" " />
+            <svg class="form__icon">
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
           </label>
-          <label class="form-field">
-            <span class="form-label">Пошта</span>
-            <input class="form-input" type="email" name="mail" placeholder=" " />
-            <svg class="icon-form">
+          <label class="form__field">
+            <span class="form__label">Пошта</span>
+            <input class="form__input" type="email" name="mail" placeholder=" " />
+            <svg class="form__icon">
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
           </label>
 
-          <label class="form-textarea"
-            ><span class="form-label">Коментар</span>
+          <label class="form__textarea"
+            ><span class="form__label">Коментар</span>
             <textarea
-              class="textarea-input"
+              class="form__textarea-input"
               name="comment"
               id=""
               placeholder="Введіть текст"
             ></textarea>
           </label>
 
-          <label class="contract-text">
+          <label class="form__contract-text">
             Погоджуюся з розсилкою та приймаю
-            <a class="link contract-link" href="">Умови договору</a>
+            <a class="form__contract-link" href="">Умови договору</a>
 
-            <input class="checkbox visually-hidden" type="checkbox" name="contract-policy" />
-            <span class="icon-check"></span>
+            <input class="form__checkbox" type="checkbox" name="contract-policy" />
+            <span class="form__icon-check"></span>
           </label>
 
-          <button class="btn primary" type="submit">Відправити</button>
+          <button class="button form__button" type="submit">Відправити</button>
         </form>
-        <button type="button" class="modal-btn" data-modal-close>
-          <svg class="icon-close">
+        <button type="button" class="modal__button" data-modal-close>
+          <svg class="modal__icon-close">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    
   </body>
 </html>
