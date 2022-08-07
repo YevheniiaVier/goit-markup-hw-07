@@ -58,6 +58,10 @@
     background-color: $bg-white-color;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    &:focus .modal__icon-close,
+    &:hover .modal__icon-close {
+      fill: $accent-color;
+    }
   }
 
   &__icon-close {
@@ -66,10 +70,7 @@
     fill: $black-text-color;
     transition: fill $time-function;
   }
-  .modal-btn:hover .icon-close,
-  .modal-btn:focus .icon-close {
-    fill: $accent-color;
-  }
+
 }
 .form {
   width: 448px;
@@ -121,7 +122,6 @@
     border-radius: 2px;
     transition: color $time-function, background-color $time-function;
   }
-
 }
 .form__textarea-input {
   width: 100%;
@@ -150,7 +150,7 @@
   position: relative;
   display: block;
   margin-bottom: 10px;
-  &:focus-within > .icon-form {
+  &:focus-within > .form__icon {
     fill: $accent-color;
   }
 }
@@ -174,7 +174,7 @@
 }
 .form__checkbox {
   @extend %visually-hidden;
-  &:checked + .icon-check {
+  &:checked + .form__icon-check {
     background-image: url(../images/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
