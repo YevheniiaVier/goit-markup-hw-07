@@ -1,10 +1,10 @@
-.work-examples__list, .clients__list, .team__list, .activities__list, .preferences__list, .social__list, .address__list, .social__item, .contacts, .page-header__list {
+.clients__list, .team__list, .activities__list, .preferences__list, .social__list, .address__list, .social__item, .contacts, .page-header__list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.work-examples__section, .clients__section, .team__section, .activities__section, .preferences__section, .page-footer__container, .page-header__container {
+.clients__section, .team__section, .activities__section, .preferences__section, .page-footer__container, .page-header__container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -12,7 +12,7 @@
   width: 1200px;
 }
 
-.work-examples__title, .preferences__title {
+.preferences__title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-.work-examples, .clients, .team, .activities, .preferences {
+.clients, .team, .activities, .preferences {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -809,72 +809,4 @@ img {
 .clients__thumb:hover, .clients__thumb:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
-}
-
-.work-examples__list {
-  margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 8px;
-}
-.button__filter {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 6px 22px;
-  font-weight: 500;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
-}
-.button__filter:hover, .button__filter:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.example-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-.example-card__item {
-  -ms-flex-preferred-size: calc(33.3333333333% - 30px);
-      flex-basis: calc(33.3333333333% - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-.example-card__content {
-  border: 1px solid #eeeeee;
-  border-top: none;
-  padding: 20px 24px;
-}
-.example-card__filter {
-  font-size: 16px;
-  line-height: 1.87;
-}
-
-.example-card__link {
-  text-decoration: none;
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: block;
-  color: inherit;
-}
-.example-card__link:hover, .example-card__link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }/*# sourceMappingURL=main.css.map */
