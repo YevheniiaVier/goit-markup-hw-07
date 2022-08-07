@@ -42,7 +42,8 @@
   }
   &__link {
     text-decoration: none;
-    transition: color $time-function;
+    @include transition(color);
+    
     font-style: normal;
     color: $transparent-color;
     &--white {
@@ -63,7 +64,8 @@
 }
 
 .social__link--white {
-  transition: background-color $time-function;
+  @include transition(background-color);
+ 
   color: $white-text-color;
   background-color: rgba(255, 255, 255, 0.1);
   &:hover,

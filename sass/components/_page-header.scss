@@ -25,7 +25,8 @@
 }
 .page-header__link {
   text-decoration: none;
-  transition: color $time-function;
+  @include transition(color);
+
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -76,7 +77,7 @@
   }
 }
 .contacts__link {
-  transition: color $time-function;
+  @include transition(color);
 
   font-weight: 500;
   line-height: 1.14;

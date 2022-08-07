@@ -23,7 +23,6 @@
     justify-content: center;
     gap: $card-gap;
   }
-
 }
 .team-card {
   width: calc((100% - (3 * $card-gap)) / 4);

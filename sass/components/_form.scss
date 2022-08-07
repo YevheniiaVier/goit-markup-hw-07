@@ -7,7 +7,8 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity $time-function, visibility $time-function;
+  @include transition(opacity);
+  @include transition(visibility);
 }
 .is-hidden {
   opacity: 0;
@@ -33,7 +34,8 @@
   border-radius: 4px;
 
   transform: translate(-50%, -50%) scale(1);
-  transition: transform $time-function;
+  @include transition(transform);
+
   &__title {
     display: block;
     font-weight: 700;
@@ -67,7 +69,7 @@
     width: 18px;
     height: 18px;
     fill: $black-text-color;
-    transition: fill $time-function;
+    @include transition(fill);
   }
 }
 .form {
@@ -90,7 +92,7 @@
     left: 12px;
     width: 18px;
     height: 18px;
-    transition: fill $time-function;
+    @include transition(fill);
   }
 
   &__contract-text {
@@ -117,8 +119,8 @@
   border-radius: 4px;
   color: inherit;
   margin-bottom: 20px;
+  @include transition(border);
 
-  transition: border $time-function;
   &::placeholder {
     line-height: 1.14;
     color: rgba(117, 117, 117, 0.5);
@@ -148,8 +150,8 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   color: inherit;
+  @include transition(border);
 
-  transition: border $time-function;
   &:focus {
     outline: none;
   }
@@ -171,7 +173,9 @@
   fill: white;
   border: 2px solid $title-text-color;
   border-radius: 2px;
-  transition: color $time-function, background-color $time-function;
+  @include transition(color);
+  @include transition(background-color);
+
   .form__checkbox:checked + & {
     background-image: url(../images/icon-check.svg);
     background-size: contain;

@@ -15,7 +15,9 @@
   }
 }
 .social__link {
-  transition: color $time-function, background-color $time-function;
+  @include transition(color);
+  @include transition(background-color);
+
   color: $border-card-color;
 
   text-decoration: none;
