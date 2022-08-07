@@ -31,15 +31,6 @@
   padding-bottom: 94px;
 }
 
-.clients__title, .team__title, .activities__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: #212121;
-  text-align: center;
-}
-
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -288,8 +279,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  background-color: var(--bg-white-color);
+  color: #757575;
+  background-color: #ffffff;
   padding-top: 80px;
 }
 
@@ -311,15 +302,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.section-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: #212121;
-  text-align: center;
 }
 
 .logo {
@@ -706,8 +688,17 @@ img {
   color: #212121;
   text-transform: uppercase;
 }
+
 .activities {
   padding-top: 0;
+}
+.activities__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
 }
 .activities__list {
   display: -webkit-box;
@@ -746,6 +737,14 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+.team__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -755,6 +754,7 @@ img {
           justify-content: center;
   gap: 30px;
 }
+
 .team-card {
   width: calc((100% - 90px) / 4);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -781,6 +781,14 @@ img {
   margin-bottom: 16px;
 }
 
+.clients__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;

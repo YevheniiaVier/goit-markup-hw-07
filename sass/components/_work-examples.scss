@@ -99,11 +99,10 @@
     color: $title-text-color;
     margin-bottom: 4px;
   }
-}
-
-&__filter {
-  font-size: 16px;
-  line-height: 1.87;
+  &__filter {
+    font-size: 16px;
+    line-height: 1.87;
+  }
 }
 
 .example-card__link {
