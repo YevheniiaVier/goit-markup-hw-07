@@ -43,7 +43,7 @@
   &__link {
     text-decoration: none;
     @include transition(color);
-    
+
     font-style: normal;
     color: $transparent-color;
     &--white {
@@ -65,7 +65,7 @@
 
 .social__link--white {
   @include transition(background-color);
- 
+
   color: $white-text-color;
   background-color: rgba(255, 255, 255, 0.1);
   &:hover,
@@ -119,18 +119,21 @@
 }
 
 .sign-up__label {
-    position: absolute;
-    top: 50%;
-    left: 16px;
+  position: absolute;
+  top: 50%;
+  left: 16px;
 
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    transform: translateY(-50%);
-    transition: color $time-function;
-    .sign-up__input:focus + &,
-    .sign-up__input:not(:placeholder-shown) + & {
-      color: transparent;
-    }
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-50%);
+  transition: color $time-function;
+  .sign-up__input:focus + &,
+  .sign-up__input:not(:placeholder-shown) + & {
+    color: transparent;
   }
+}
+.page-footer__contacts {
+  width: 231px;
+}

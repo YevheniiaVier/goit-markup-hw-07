@@ -623,6 +623,10 @@ img {
   color: transparent;
 }
 
+.page-footer__contacts {
+  width: 231px;
+}
+
 .work-examples__list {
   margin-bottom: 50px;
   display: -webkit-box;
